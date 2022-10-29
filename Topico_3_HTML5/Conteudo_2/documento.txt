@@ -1,0 +1,2 @@
+Sobre tipos de formatação textual em html
+<b> <strong> <i> <em> <strike> <u>

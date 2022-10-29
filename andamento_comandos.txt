@@ -1,0 +1,30 @@
+$ Git_init cria um arquivo git
+
+$ git status mostra que arquivos estão incluídos no controle de versão e quais não estão
+mostra quais não foram incluídos
+
+$ git add "Novo Documento de Texto.txt" adiciona o arquivo que está entre as aspas duplas
+
+$ git add . adiciona todos marcados em vermelho no status
+
+$ git commit -m "commit inicial" onde git commit é pra fazer o primeiro controle de versão e -m é mensagem e entre aspas é o nome dela
+
+$ git config --global user.email ""
+$ git config --global user.email ""
+Os dois são para salvar linkar com seu Perfil no GITHUB, geralmente pede quando vc nunca linkou antes
+
+$ git push envia o codigo, porém como não foi indicado aonde enviar é feito o comando
+
+$ git remote add origin https://github.com/leonardomartiins/Conhecimento_em_Ferramentas endereço do repositório criado para estes fins
+
+$ git push ainda não vai funcionar pois necessita de uma brench(divisão, ele dá como opção a sguinte divisão)
+
+$ git push --set-upstream origin master
+
+$ git reflog mostra todas as versões que vc já fez versionamento, para vc selecionar a do seu interesse
+
+$ git reset --hard "id" no lugar escito id vc vai colocar o codigo mostrado a esquerda do versionamento desejado
+
+$ git branch mostra as branchs disponíveis no momento 
+
+

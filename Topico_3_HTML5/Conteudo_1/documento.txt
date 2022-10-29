@@ -1,0 +1,16 @@
+Aprendizado referente a <hr>, horizontal row
+uma linha que transpassa a tela;
+
+tamanho da fonte dos cabeçalhos <h1> -> <h6>
+diminuindo progressivamente;
+
+sobre tags no head como meta que 
+define metadados, geralmente no geral;
+
+sobre a tag title que define o titulo da página;
+
+sobre a criação do arquivo.html;
+
+sobre !doctype que define html no arquivo;
+
+
