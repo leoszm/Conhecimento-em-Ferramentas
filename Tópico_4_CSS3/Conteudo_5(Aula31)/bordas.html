@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Bordas</title>
+    <style type="text/css">
+        #conteudo{
+        /*  borda : espessura   tipo    cor */
+      /*            px,em,etc   dotted
+                                dashed
+                                solid
+                                double
+                                groove
+                                ridge
+                                inset
+                                outset
+                                none
+                                hidden
+*/
+      /*border: 3px         solid   red;*/
+      border-color: red green yellow blue;
+      /*cor borda : cima    dir     baixo   esquerda*/
+      border-width: 15px    10px    5px     1px;
+    /*tamanho borda cima    dir     baixo   esquerda*/
+      border-style:  solid dotted dashed outset;
+      /*estilo borda cima  dir    baixo  esquerda*/
+      /*caso sejam 2 valores, o primeiro refere-se a cima baixo e o segundo esquerda direita*/
+        }
+    </style>
+</head>
+<body>
+    <div id="conteudo">
+        Bordas<br>
+        Bordas<br>
+        Bordas<br>
+    </div>
+    <p>
+        conteudo
+    </p>
+</body>
+</html>
