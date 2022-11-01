@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="html">
+<head>
+    <title>Div e span</title>
+    <meta charset="utf-8">
+    <!--Declarando estilo-->
+    <style type="text/css">
+        #topo{
+            background: blue;
+        }
+        #conteudo{
+            background: red;
+        }
+        #rodape{
+            background: green;
+        }
+        #assinatura{
+            background: pink;
+        }
+        .produto{
+            background: gray;
+            margin: 10px;
+        }
+        .azul{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!--div é elemento do tipo block, quebrando um abaixo do outro-->
+    <div id="topo">
+        <img src="./imagens/amazon-logo.png" alt="amazon-logo">
+        <ul>
+            <li>Home</li>
+            <li>Quem Somos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+    <div id="conteudo">
+        <div class="produto">
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class="produto">
+            Produto 3
+        </div>
+    </div>
+    <div id="rodape">
+        Todos os <span class="azul">direitos</span> reservados!
+    </div>
+    <!--span é um elemento do tipo inline agrupando com os anteriores da linha-->
+    <span id="assinatura">
+        Jamilton
+    </span>
+    <span>
+        Damasceno
+    </span>
+</body>
+</html>
