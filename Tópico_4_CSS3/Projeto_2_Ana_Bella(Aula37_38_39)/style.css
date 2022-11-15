@@ -1,6 +1,7 @@
 body{
     background: #d2d2c1 url('./images/fundo.png');
     font: 16px Arial, Helvetica, sans-serif;
+
 }
 #principal {
     width: 900px;   
@@ -13,13 +14,22 @@ body{
     background: #e8e8d9;
     padding: 10px;
 }
-#footer{
-    text-align: center;
-    font-weight: bold;
-}
+
 a{
     color: #4b566a;
     text-decoration: none;
     font-weight: bold;
     padding: 8px;
+}
+h1{
+    color: #828271;
+    font-size: 1.2em;
+}
+
+.footer{
+    text-align: center;
+    font-weight: bold;
+}
+.img-campanha{
+    border: 10px solid #c3c3ae;
 }
