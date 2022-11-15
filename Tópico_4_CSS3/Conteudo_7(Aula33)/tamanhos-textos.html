@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho de textos</title>
+    <style type="text/css">
+        div{
+            font-size: 60px;
+        }
+        .texto{
+            /*
+            Medidas:
+            px  -> pixels       -> tamanho fixo;
+            %   -> porcentagem  -> tamanho relativo a página;
+            em  -> porcentagem  -> tamanho relativo ao container pai;
+            ex: se o pai tem 30 e o filho tem 1em, esse 1em significa 30,
+            isso também vale você colocar 2em, ou seja, 2*30px=60px
+            ja se você digita outro valor como 30px ou 80px 20%, esses valores
+            sobrescrevem o pai;
+
+            font-size: 30px;*/
+            font-size: 1em;
+        }
+        .texto2{
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <p class="texto">Conteúdo 1</p><!--"em" relativa a container pai(div)-->
+    <p class="texto2">Conteúdo 2</p><!--sobrescreve container pai(div)-->
+    <p>Conteúdo 3</p><!--definida pelo container pai(div)-->
+    </div>  
+</body>
+</html>
