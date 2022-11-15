@@ -4,7 +4,7 @@
 <h3><br />Conteúdo:</h3>
 
 - Criar aplicações WEB: Do front ao back-end e banco de dados com HTML5, CSS3, BootStrap 4, JS, ES6, ES7, PHP 7, OO, MySQL, JQuery, MVC, API, IONIC e Wordpress.
-- ntegrar as principais tecnologias Web através de projetos reais. Tudo na prática!
+- Integrar as principais tecnologias Web através de projetos reais. Tudo na prática!
 - Como tornar suas habilidades em desenvolvimento web uma atividade remunerada, trabalhando de onde quiser.
 - Criar aplicações Mobile conectadas a aplicações WEB utilizando a tecnologia IONIC.
 - HTML5: cabeçalhos, listas, imagens, links, tabelas, formulários, hear, nav, footer, article, section aside.
