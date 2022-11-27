@@ -1,0 +1,11 @@
+/*Noticia*/
+
+#noticia{
+    background: blue;
+    padding: 10px;
+}
+h2{
+    border: 1px solid red;
+    margin: 0px;/*H2 POSSUI ESPAÇAMENTO DEVIDO SER TITULO, ESSE COMANDO MARGIN
+    ZERA O ESPAÇAMENTO COM DIV*/
+}

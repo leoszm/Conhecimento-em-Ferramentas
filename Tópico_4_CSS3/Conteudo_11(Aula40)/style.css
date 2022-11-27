@@ -1,0 +1,30 @@
+/*
+MODELO DE CAIXA
+*/
+.conteudo{
+    border: 1px solid red;
+    /*PADDING*/
+    /*ESPAÇAMENTO INTERNO, SEJA ELE TOP, RIGHT LEFT OR BOTTTOM*/
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding: 20px 15px 10px 5px;/*TOP RIGHT BOTTOM LEFT*/
+    padding: 20px 15px;/*20 top e bottom - 15 right e left*/
+    padding: 20px;/*all sides*/
+    /*FIM PADDING*/
+
+    /*MARGIN*/
+    /*ESPAÇAMENTO EXTERNO, SEJA ELE TOP, RIGHT LEFT OR BOTTTOM*/
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin: 20px 15px 10px 5px;/*TOP RIGHT BOTTOM LEFT*/
+    margin: 20px 15px;/*20 top e bottom - 15 right e left*/
+    margin: 20px;/*all sides*/
+    /*margin bottom do elemento superior e top do inferior se sobrepoem, 
+    ex: top 30px e bottom 20px totalizam 30px, pois 20 faz parte dos 30*/
+    /*FIM MARGIN*/
+    width: 150px;/*DEVIDO AO PADDING-RIGHT AGORA SÃO 170PX, 150+20*/
+}
