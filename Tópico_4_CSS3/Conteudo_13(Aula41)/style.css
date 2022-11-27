@@ -1,0 +1,18 @@
+.conteudo{
+    background: blue;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float:right;
+}
+.conteudo1{
+    background: red;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    /*FLOAT - CAMPO FLUTUANTE(SAI DO FLUXO DOS OUTROS ELEMENTOS, COMO SE NÃO EXISTISSE)*/
+    /*MOVE O CAMPO ATÉ A PROPRIEDADE SELECIONADA, SOBREPONDO O QUE ESTIVER AO SEU FUNDO*/
+    float: left;/*left right none*/
+    /*FIM FLOAT*/
+}
