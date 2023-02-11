@@ -1,7 +1,11 @@
-# Conhecimento_em_Ferramentas
-<h3>Repositório dedicado à diversas ferramentas, tutoriais, aprendizado de linguagens e boas práticas aprendidos no curso da Udemy "Desenvolvimento Web Completo 2022 - 20 cursos + 20 projetos", ministrado pelos profissionais Jorge Sant'ana e Jamilton Damasceno!</h3>
+<h2 align="center">Conhecimento em Ferramentas Web</h2>
+<div>
+<h3>Explicação</h3><h4>
 
-<h3><br />Conteúdo:</h3>
+- Repositório dedicado à diversas ferramentas, tutoriais, aprendizado de linguagens e boas práticas aprendidos no curso da Udemy "Desenvolvimento Web Completo 2022 - 20 cursos + 20 projetos", ministrado pelos profissionais Jorge Sant'ana e Jamilton Damasceno!</h3>
+</div>
+<div>
+<h3>Conteúdo</h3>
 
 - Criar aplicações WEB: Do front ao back-end e banco de dados com HTML5, CSS3, BootStrap 4, JS, ES6, ES7, PHP 7, OO, MySQL, JQuery, MVC, API, IONIC e Wordpress.
 - Integrar as principais tecnologias Web através de projetos reais. Tudo na prática!
@@ -26,3 +30,21 @@
 - SAAS: alinhamento, variáveis, interpolação, for, while, each, funções, mixin, herança, diretivas de controle.
 - IONIC: componentes, botões, entrada de dados, data biding, angular, grids, navegação e modelo.
 - WordPress: instalação, temas, personalização, plugins, usuários, comentários, criador de páginas com elementor.
+</div>
+<div>
+<h3>Licensas</h3>
+
+- <strong>Este conteúdo</strong>, dentro dos meus repositórios, é open source, fique a vontade caso queira utiliza-lo de entretenimento ou base de estudo.
+</div>
+<br>
+<div>
+<p>Atenciosamente,</p>
+<p><i><strong>Leonardo Souza Martins</strong>, Web Developer - SP - BR</i></p>
+</div>
+<hr />
+<div>
+<h3>Referências</h3><p>
+
+- Conteúdo disponibilizado no Link: <a href="https://www.udemy.com/course/web-completo/">Desenvolvimento Web Completo - 20 cursos + 20 projetos<a>.<br>
+Autores: <a href="https://www.udemy.com/user/jamiltondamasceno/">Jamilton Damasceno</a> e <a href="https://www.udemy.com/user/jorgetadeusantanasilva/">Jorge Sant Ana</a>.</p>
+</div>
