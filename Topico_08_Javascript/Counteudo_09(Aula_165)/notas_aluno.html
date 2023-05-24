@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        var media = 7
+        var faltasMaximas = 15
+        var nota = prompt('Digite a nota do aluno')
+        var faltas = prompt('Digite o número de faltas: ')
+        if(parseInt(nota) < 11 && parseInt(nota) > 0){
+        //7>=7=true                 10<=15 = true
+        if(parseInt(nota) >=7 && parseInt(faltas) <= faltasMaximas){
+            document.write('Aprovado')
+        }//       7 >= 7 = true     &&     18 > 15 = true
+        else if(parseInt(nota) >= 7 && parseInt(faltas) > faltasMaximas){
+            document.write('Aprovado, Mas terá de fazer recuperação de faltas')
+        }//     5 < 7 = true       &&        10 < 15 = true
+        else if(parseInt(nota) < 7 && parseInt(faltas) < faltasMaximas){
+            document.write('Reprovado por nota')
+        }else if(parseInt(nota) > 10){
+            document.write('Digite números válidos para nota!')
+        }//Nenhuma das condições
+        else{
+            document.write('erro dentro do if')
+        }
+    }else{
+        document.write('Erro else')
+    }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
