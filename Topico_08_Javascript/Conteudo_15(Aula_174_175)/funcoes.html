@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script>
+
+        //void(sem retorno)
+        function calcularAreaTerreno(largura, comprimento){
+
+            //Lógica
+            var area = largura * comprimento
+
+            document.write('O terreno possui ' + area + ' metros quadrados de área!')
+        }
+
+        //Com retorno
+        function calcularAreaPiscina(largura, comprimento){
+            //Lógica
+            var piscina = largura * comprimento
+
+            return piscina
+        }
+        var tLargura = prompt('Digite a largura do terreno em metros')
+        var tComprimento = prompt('Digite o comprimento do terreno em metros')
+        var pLargura = prompt('Digite a largura da piscina em metros')
+        var pComprimento = prompt('Digite o comprimento da piscina em metros')
+
+        var areaP = calcularAreaPiscina(largura, comprimento)
+        calcularAreaTerreno(largura, comprimento)
+
+        document.write('A piscina possui ' + area + ' metros quadrados de área!')
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
